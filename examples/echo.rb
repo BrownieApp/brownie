@@ -2,6 +2,6 @@ require "truffles"
 
 class CLI < truffles.CLI
   def echo(args)
-    puts args.join(" ")
+   truffles.print args.join(" ")
   end
 end
