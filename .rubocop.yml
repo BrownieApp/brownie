@@ -1,0 +1,60 @@
+  AllCops:
+    TargetRubyVersion: 2.2
+    
+  Metrics/ParameterLists:
+    Max: 6
+    CountKeywordArgs: true
+  
+  Metrics/MethodLength:
+    Max: 25
+    CountComments: false
+  
+  Metrics/AbcSize:
+    Enabled: false
+  
+  Metrics/ClassLength:
+    Max: 300
+  
+  Metrics/ModuleLength:
+    Max: 300
+  
+  Metrics/BlockLength:
+    Max: 30
+    
+  Metrics/CyclomaticComplexity:
+    Max: 12
+  
+  Metrics/PerceivedComplexity:
+    Max: 15
+  
+  BlockNesting:
+    Max: 4
+  
+  Metrics/LineLength:
+    Enabled: false
+    
+  AccessModifierIndentation:
+    Enabled: false
+  
+  Documentation:
+    Enabled: false
+  
+  HashSyntax:
+    EnforcedStyle: hash_rockets
+  
+  SpaceInsideHasLiteralBraces:
+    EnforcedStyle: no_space
+  
+  DotPosition:
+    Enabled: false
+  
+  Encoding:
+    Enabled: false
+    
+  AccessModifierIndentation:
+    EnforcedStyle: outdent
+  
+  EmptyLinesArroundAccessModifier:
+    Enabled: true
+  
+  
