@@ -12,3 +12,8 @@ class CLI
     end
   end
 end
+
+def input(label)
+  puts label
+  return gets.chomp
+end
