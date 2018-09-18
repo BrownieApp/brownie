@@ -3,6 +3,6 @@ require "truffles" # If the gem is installed.  To use this install the gem or mo
 
 class CLI < truffles.CLI
   def hello(args)
-    puts "Hello, #{args[0]}!"
+    truffles.print "Hello, #{args[0]}!"
   end
 end
