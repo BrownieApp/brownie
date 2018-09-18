@@ -23,5 +23,5 @@ def input(label)
 end
 
 def print(text)
-  puts text
+  puts ">" + text
 end
