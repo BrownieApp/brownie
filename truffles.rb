@@ -4,10 +4,14 @@ class CLI
   
   while true do
     in_raw = gets.chomp
-    in = in_raw.split(" ")
+    inc = in_raw.split(" ")
     for method in f do
-      if in[0] == method then
-        send(this[method], in.drop(1))
+      if inc.include? method then
+        if in[0] == method then
+          send(this[method], inc.drop(1))
+        end
+      else
+          puts "Command not found. \n List of commands \n #{f.join('\n')}"
       end
     end
   end
