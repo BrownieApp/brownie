@@ -21,3 +21,7 @@ def input(label)
   puts label
   return gets.chomp
 end
+
+def print(text)
+  puts text
+end
